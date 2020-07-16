@@ -1,6 +1,8 @@
-body{
+html, body{
     margin:0px;
     padding:0px;
+    font-size: 15px;
+    box-sizing: border-box;
 
 }
 /*Css du premier block */
@@ -15,9 +17,9 @@ body{
 .infophoto
 {
     display:flex;
-    margin: 0px;
 }
-.photo{
+    
+.photo {
     width:33%;
     background-color: #feca07;
     text-align: center;
@@ -46,11 +48,41 @@ h4{
 /* Fin du premier block */
 
 /* Début du deuxième , sous la photo */ 
-
 .contact
 {
-    width:33%;
+    width:61%;
     background-color: #feca07;
-    margin:0px;
 }
+h2
+{
+    background-color:#404040;
+    text-align: center;
+    color: #feca07;
+    text-transform: uppercase;
+    margin:0;
+}
+   
+.container{
+    display:flex;
 
+}
+.section{
+
+    padding:20px;
+}
+.section2{
+    padding:1px 20px 300px 20px;
+    text-align: justify;
+}
+.section3 i{
+    display: block;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #404040;
+    border: 2px solid #404040;
+    border-radius: 50%;
+    
+}
