@@ -20,7 +20,7 @@ html, body{
 }
     
 .photo {
-    width:33%;
+    width:29%;
     background-color: #feca07;
     text-align: center;
     padding-top:45px;   
@@ -28,9 +28,14 @@ html, body{
 img{
     border-radius: 50%;
     border:3px solid #daaf12;
+
+}
+.contact
+{
+    font-size: 13px;
 }
 .info{
-    padding:50px;
+    padding:40px;
 }
 h1{
     font-size:40px ;
@@ -81,11 +86,11 @@ h2
 }
 .section3 i{
    
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     color: #404040;
     border: 2px solid #404040;
     border-radius: 50%;
@@ -95,3 +100,36 @@ h2
 
 
 /*Debut de la partie blanche*/ 
+.experience{
+    padding:50px;
+}
+h3 i{
+    color:#feca07;
+    padding-right:20px;
+    font-size:35px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom:3px solid #feca07;
+    padding-bottom: 5px;
+}
+.section-sub{
+    display: flex;
+    text-align: justify;
+    font-size: 13px;
+   ;
+}
+.mark{
+    text-transform: uppercase;
+
+}
+.details 
+{
+    padding-left: 40px;
+    
+}
+.details .p
+{
+    padding-top:50px; 
+}
