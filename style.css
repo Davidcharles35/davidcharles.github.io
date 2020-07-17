@@ -1,33 +1,36 @@
 html, body{
     margin:0px;
-    padding:0px;
     font-size: 15px;
     box-sizing: border-box;
+    background-color: grey;
 
 }
 /*Css du premier block */
+
 .presentation
 {   
     
-    width: 780px;
+    width: 850px;
     margin:auto;
     font-family: 'Roboto', sans-serif;
+    
 
 }
 .infophoto
 {
-    display:flex;
+    display: flex;
 }
     
 .photo {
-    width:29%;
-    background-color: #feca07;
+    width:27%;
+    background-color: #269be6;
     text-align: center;
-    padding-top:45px;   
+    padding-top:30px;   
+    padding-bottom: 30px;
 }
 img{
     border-radius: 50%;
-    border:3px solid #daaf12;
+    border:3px solid #252ed4;
 
 }
 .contact
@@ -35,19 +38,26 @@ img{
     font-size: 13px;
 }
 .info{
-    padding:40px;
+    padding-top:40px;
+    padding-left:40px;
+    padding-bottom: 10px;
+    width: 60%;
+    background-color: white;
 }
 h1{
     font-size:40px ;
     text-transform: uppercase;
+    
 }
 .color{
-    color: #feca07;
+    color: #269be6;
 }
 .border{
-    border-bottom:1px solid #feca07;
+    border-bottom:1px solid #269be6;
 }
+
 h4{
+    
     font-size: 20px;
 }
 /* Fin du premier block */
@@ -56,19 +66,25 @@ h4{
 .contact
 {
     width:61%;
-    background-color: #feca07;
+    background-color: #269be6;
+    padding-bottom: 80px;
 }
 h2
 {
     background-color:#404040;
     text-align: center;
-    color: #feca07;
+    color: #269be6;
     text-transform: uppercase;
     margin:0;
+    height:40px;
+    
+  
 }
    
 .container{
+    width:780px;
     display:flex;
+    ;
 
 }
 .section{
@@ -81,11 +97,11 @@ h2
 }
 .section3{
     text-align: center;
-    padding:30px 30px 30px 30px;
+    padding-top:70px;
     
 }
 .section3 i{
-   
+    
     font-size: 20px;
     text-align: center;
     width: 40px;
@@ -101,35 +117,81 @@ h2
 
 /*Debut de la partie blanche*/ 
 .experience{
-    padding:50px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom:;
+    background-color: white;
 }
 h3 i{
-    color:#feca07;
+    color:#269be6;
     padding-right:20px;
-    font-size:35px;
+    font-size:30px;
 }
 h3{
     text-transform: uppercase;
     font-size: 20px;
-    border-bottom:3px solid #feca07;
+    border-bottom:3px solid #269be6;
     padding-bottom: 5px;
 }
 .section-sub{
     display: flex;
     text-align: justify;
     font-size: 13px;
-   ;
 }
-.mark{
-    text-transform: uppercase;
 
-}
-.details 
-{
-    padding-left: 40px;
-    
-}
+
+
 .details .p
 {
-    padding-top:50px; 
+    padding-top:10px; 
+    padding-left: 150px;
 }
+.details
+{
+    padding-left: 50px;
+}
+.date{
+    width:30px;
+}
+.icônes
+{
+    font-size: 10px;
+    color:#269be6;
+    
+}
+.ico
+{
+padding-top:15px;
+padding-right: 15px;
+}
+.ico2
+{
+    padding-top: 136px;
+}
+.ico3
+{
+padding-top:15px;
+padding-right: 15px;
+
+}
+.ico4
+{
+    padding-top:150px;
+}
+.ico5
+{
+    padding-top:135px;
+
+
+}
+.rec-left
+{
+    padding-right: 100px;
+    line-height: 2;
+}
+.rec-right
+{
+    line-height: 2;
+}
+
+/*Fin de la partie blanche*/ 
