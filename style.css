@@ -67,7 +67,7 @@ h4{
 {
     width:61%;
     background-color: #269be6;
-    padding-bottom: 80px;
+    
 }
 h2
 {
@@ -75,8 +75,9 @@ h2
     text-align: center;
     color: #269be6;
     text-transform: uppercase;
-    margin:0;
     height:40px;
+    padding-top:15px
+
     
   
 }
@@ -92,12 +93,13 @@ h2
     padding:20px;
 }
 .section2{
-    padding:1px 20px 450px 20px;
+    padding:1px 20px 350px 20px;
     text-align: justify;
 }
 .section3{
     text-align: center;
-    padding-top:70px;
+    padding-top:30px;
+    padding-bottom: 0;
     
 }
 .section3 i{
@@ -111,6 +113,7 @@ h2
     border: 2px solid #404040;
     border-radius: 50%;
     
+    
 }
 /*Fin de la partie jaune */
 
@@ -119,7 +122,6 @@ h2
 .experience{
     padding-left:50px;
     padding-right: 50px;
-    padding-bottom:;
     background-color: white;
 }
 h3 i{
@@ -149,6 +151,7 @@ h3{
 .details
 {
     padding-left: 50px;
+  
 }
 .date{
     width:30px;
@@ -182,16 +185,24 @@ padding-right: 15px;
 {
     padding-top:135px;
 
-
+}
+.section-sub2
+{
+    display: flex;
+    padding-bottom: 75px;
 }
 .rec-left
 {
     padding-right: 100px;
     line-height: 2;
+   
 }
 .rec-right
 {
     line-height: 2;
 }
+
+
+
 
 /*Fin de la partie blanche*/ 
