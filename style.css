@@ -211,37 +211,65 @@ padding-right: 15px;
 
 
 @media screen and (min-width:320px) and (max-width:680px){
-    .infophoto{
-        display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+    .presentation{
+        width: auto;
+        margin: 0 10px;
+        padding:10px;
     }
-    .photo{
-        width:100%;
+    .infophoto {
+       
+        display:flex;
+        flex-direction: column;
     }
     .info{
-        width: 100%;
-        text-align: left;
-    
+        width:100%;
+        padding:0;
+        text-align: center;
     }
-  .container{
-      flex-direction:column-reverse;
-      
-  }
-  .contact{
-      width:100%;
-     padding-right:50px;
-      text-align: center;
-  }
-  .section-sub{
-      text-align: justify;
-  }
-  
- 
+    .photo{
+        width:100%;  
     }
-
-@media screen and (min-width:681px) and (max-width:1279px){
+    .container{
+        flex-direction: column-reverse;
+        padding:0px;
+        width:100%;
+        
+    }
+    .experience{
+        padding:0;
+        margin:0;
+        width:100%;
+        
+    }
+    .section-sub{
+        padding:0;
+        width:100%;
+    }
     .contact{
-        background-color: slateblue;
+        width:100%;
+        flex-direction: column-reverse;
     }
-}
+    .section{
+        text-align: center;
+    }
+    .section2{
+        padding:1px 20px 20px 20px;
+    }
+    .section3{
+        padding:20px;
+    }
+    .details p{
+        padding:13px;
+    }
+    .icônes{
+        padding:10px
+    }
+    .rec-left,.rec-right{
+        padding:13px;
+    }
+    h3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    }
+    
