@@ -203,6 +203,11 @@ padding-right: 15px;
     line-height: 2;
 }
 
+.media
+{
+    display: none;
+}
+
 
 
 
@@ -261,9 +266,7 @@ padding-right: 15px;
     .details p{
         padding:13px;
     }
-    .icônes{
-        padding:10px
-    }
+    
     
     h3{
         padding-left: 10px;
@@ -279,6 +282,26 @@ padding-right: 15px;
     }
     .ico, .ico2, .ico3, .ico4 , .ico5
     {
+        display:none;
+    }
+    h3 
+    {
+        text-align: center;
+    }
+
+    .date 
+    {
+        display:none;
+    }
+    .media 
+    {
+        display:contents;
+    }
+    .details{
+        text-align: center;
+        padding-right: 35px;
+    }
+    .details br {
         display:none;
     }
     }
