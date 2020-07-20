@@ -272,14 +272,7 @@ padding-right: 15px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .rec-right
-    {
-        padding-right: 10px;
-    }
-    .rec-left
-    {
-        padding-left: 10px;
-    }
+   
     .ico, .ico2, .ico3, .ico4 , .ico5
     {
         display:none;
@@ -303,6 +296,14 @@ padding-right: 15px;
     }
     .details br {
         display:none;
+    }
+    .section-sub2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .rec-left{
+        padding-left:110px;
     }
     }
 
