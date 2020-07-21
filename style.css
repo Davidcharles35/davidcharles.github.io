@@ -11,10 +11,9 @@ html, body{
 {   
     display:flex;
     flex-direction: column;
-    width: 850px;
+    width: 850px;   /* Definit la taille de la page */ 
     margin:auto;
     font-family: 'Roboto', sans-serif;
-    
 
 }
 .infophoto
@@ -103,7 +102,7 @@ h2
     padding-bottom: 0;
     
 }
-.section3 i{
+.section3 i{ /*Création d'un cercle autour des icônes*/
     
     font-size: 20px;
     text-align: center;
@@ -124,6 +123,10 @@ h2
     padding-left:50px;
     padding-right: 50px;
     background-color: white;
+}
+.date_              /*pour décaler la hauter des dates*/
+{
+   padding-top:56px; 
 }
 h3 i{
     color:#269be6;
@@ -156,6 +159,14 @@ h3{
 }
 .date{
     width:30px;
+}
+.date_1
+{
+    padding-top: 85px;
+}
+.date_2
+{
+    padding-top:90px;
 }
 .icônes
 {
@@ -305,6 +316,15 @@ padding-right: 15px;
     .rec-left{
         padding-left:110px;
     }
+    strong
+    {
+        font-size :17px;
     }
+    .section-sub2{
+        font-size: 15px;
+    }
+   
+    }
+
 
     
