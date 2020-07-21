@@ -3,10 +3,8 @@ html, body{
     font-size: 15px;
     box-sizing: border-box;
     background-color: grey;
-
 }
 /*Css du premier block */
-
 .presentation
 {   
     display:flex;
@@ -14,24 +12,22 @@ html, body{
     width: 850px;   /* Definit la taille de la page */ 
     margin:auto;
     font-family: 'Roboto', sans-serif;
-
 }
 .infophoto
 {
     display: flex;
+}  
+figure{
+background-color: #269be6;
+width:27%;
+margin:0;
+text-align:center;
+padding-top:37px;
 }
-    
-.photo {
-    width:27%;
-    background-color: #269be6;
-    text-align: center;
-    padding-top:30px;   
-    padding-bottom: 30px;
-}
+   
 img{
     border-radius: 50%;
     border:3px solid #252ed4;
-
 }
 .contact
 {
@@ -46,8 +42,7 @@ img{
 }
 h1{
     font-size:40px ;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 .color{
     color: #269be6;
@@ -55,9 +50,7 @@ h1{
 .border{
     border-bottom:1px solid #269be6;
 }
-
-h4{
-    
+h4{  
     font-size: 20px;
 }
 /* Fin du premier block */
@@ -66,8 +59,7 @@ h4{
 .contact
 {
     width:61%;
-    background-color: #269be6;
-    
+    background-color: #269be6;  
 }
 h2
 {
@@ -77,19 +69,12 @@ h2
     text-transform: uppercase;
     height:40px;
     padding-top:15px
-
-    
-  
-}
-   
+} 
 .container{
     width:780px;
     display:flex;
-    ;
-
 }
 .section{
-
     padding:20px;
 }
 .section2{
@@ -99,11 +84,10 @@ h2
 .section3{
     text-align: center;
     padding-top:30px;
-    padding-bottom: 0;
-    
+    padding-bottom:30px; 
+    margin:0; 
 }
 .section3 i{ /*Création d'un cercle autour des icônes*/
-    
     font-size: 20px;
     text-align: center;
     width: 40px;
@@ -112,11 +96,8 @@ h2
     color: #404040;
     border: 2px solid #404040;
     border-radius: 50%;
-    
-    
 }
 /*Fin de la partie jaune */
-
 
 /*Debut de la partie blanche*/ 
 .experience{
@@ -144,9 +125,6 @@ h3{
     text-align: justify;
     font-size: 13px;
 }
-
-
-
 .details .p
 {
     padding-top:10px; 
@@ -155,12 +133,12 @@ h3{
 .details
 {
     padding-left: 50px;
-  
+    padding-bottom: 40px;
 }
 .date{
     width:30px;
 }
-.date_1
+.date_1    /* Date_1 et date_2 pour supprimer les br */ 
 {
     padding-top: 85px;
 }
@@ -172,7 +150,6 @@ h3{
 {
     font-size: 10px;
     color:#269be6;
-    
 }
 .ico
 {
@@ -201,32 +178,25 @@ padding-right: 15px;
 .section-sub2
 {
     display: flex;
-    padding-bottom: 75px;
+    padding-bottom: 35px;
+    font-size:13px;
 }
 .rec-left
 {
     padding-right: 100px;
     line-height: 2;
-   
 }
 .rec-right
 {
     line-height: 2;
 }
-
 .media
 {
     display: none;
 }
-
-
-
-
 /*Fin de la partie blanche*/ 
 /*!la partie responsive */ 
-
-
-@media screen and (min-width:320px) and (max-width:680px){
+@media screen and (min-width:320px) and (max-width:820px){   /*Cela signifie que c'est les écrans entre 320 et 820px, je l'ai élargit à cause des galaxy s9 qui sont de 812 px */ /* le paysage fonctionne */ 
     .presentation{
         width: auto;
         margin: 0 10px;
@@ -242,9 +212,11 @@ padding-right: 15px;
         padding:0;
         text-align: center;
     }
-    .photo{
+    figure{
         width:100%;  
+        padding-bottom: 32px;
     }
+
     .container{
         flex-direction: column-reverse;
         padding:0px;
@@ -255,7 +227,6 @@ padding-right: 15px;
         padding:0;
         margin:0;
         width:100%;
-        
     }
     .section-sub{
         padding:0;
@@ -277,22 +248,18 @@ padding-right: 15px;
     .details p{
         padding:13px;
     }
-    
-    
     h3{
         padding-left: 10px;
         padding-right: 10px;
     }
-   
     .ico, .ico2, .ico3, .ico4 , .ico5
     {
-        display:none;
+        display:none;          /* Les icônes sont supprimés */ 
     }
     h3 
     {
         text-align: center;
     }
-
     .date 
     {
         display:none;
@@ -307,23 +274,31 @@ padding-right: 15px;
     }
     .details br {
         display:none;
+
     }
     .section-sub2{
+        font-size: 13px;
+    }
+   
+    .section-sub2{
+    
         display: flex;
         flex-direction: column;
         text-align: center;
+        
+    }
+    .section-sub2 strong{
+        font-size: 13px;
     }
     .rec-left{
-        padding-left:110px;
+        text-align: center;
+        padding-right:0;  /*Annulation de la mise en page sans média Q */ 
     }
     strong
     {
         font-size :17px;
     }
-    .section-sub2{
-        font-size: 15px;
-    }
-   
+    
     }
 
 
