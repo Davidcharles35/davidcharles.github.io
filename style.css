@@ -50,8 +50,8 @@ h1{
 .border{
     border-bottom:1px solid #269be6;
 }
-h4{  
-    font-size: 20px;
+.title{  
+    font-size: 16px;
 }
 /* Fin du premier block */
 
@@ -114,7 +114,7 @@ h3 i{
     padding-right:20px;
     font-size:30px;
 }
-h3{
+h3 {
     text-transform: uppercase;
     font-size: 20px;
     border-bottom:3px solid #269be6;
