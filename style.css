@@ -18,7 +18,7 @@ section
 }  
 figure{
 background-color: #269be6;
-width:28%;
+width:30%;
 margin:0;
 text-align:center;
 padding-top:37px;
@@ -36,7 +36,7 @@ img{
     padding-top:40px;
     padding-left:40px;
     padding-bottom: 10px;
-    width:59%;
+    width:70%;
     background-color: white;
 }
 h1{
@@ -57,7 +57,7 @@ h1{
 /* Début du deuxième , sous la photo */ 
 .contact
 {
-    width:67%;
+    width:30%;
     background-color: #269be6;  
 }
 h2
@@ -100,6 +100,7 @@ h2
 
 /*Debut de la partie blanche*/ 
 .experience{
+    width:70%;
     padding-left:40px;
     padding-right: 40px;
     background-color: white;
