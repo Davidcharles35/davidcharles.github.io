@@ -9,7 +9,7 @@ main
     display:flex;
     flex-direction: column;
     width: 850px;   /* Definit la taille de la page */ 
-    margin:auto;
+    margin:auto; /* Centre la page */ 
     font-family: 'Roboto', sans-serif;
 }
 section
@@ -18,7 +18,7 @@ section
 }  
 figure{
 background-color: #269be6;
-width:27%;
+width:28%;
 margin:0;
 text-align:center;
 padding-top:37px;
@@ -36,7 +36,7 @@ img{
     padding-top:40px;
     padding-left:40px;
     padding-bottom: 10px;
-    width: 60%;
+    width:59%;
     background-color: white;
 }
 h1{
@@ -57,7 +57,7 @@ h1{
 /* Début du deuxième , sous la photo */ 
 .contact
 {
-    width:63%;
+    width:67%;
     background-color: #269be6;  
 }
 h2
