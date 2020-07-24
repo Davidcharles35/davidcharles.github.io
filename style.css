@@ -2,6 +2,7 @@ html, body{
     margin:0px;
     font-size: 15px;
     background-color: grey;
+    
 }
 /*Css du premier block */
 main
@@ -11,6 +12,7 @@ main
     width: 850px;   /* Definit la taille de la page */ 
     margin:auto; /* Centre la page */ 
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 section
 {
@@ -36,7 +38,7 @@ img{
     padding-top:40px;
     padding-left:40px;
     padding-bottom: 10px;
-    width:70%;
+    width:57%;
     background-color: white;
 }
 h1{
@@ -57,7 +59,7 @@ h1{
 /* Début du deuxième , sous la photo */ 
 .contact
 {
-    width:30%;
+    width:40%;
     background-color: #269be6;  
 }
 h2
