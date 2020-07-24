@@ -1,7 +1,6 @@
 html, body{
     margin:0px;
     font-size: 15px;
-    box-sizing: border-box;
     background-color: grey;
 }
 /*Css du premier block */
@@ -58,7 +57,7 @@ h1{
 /* Début du deuxième , sous la photo */ 
 .contact
 {
-    width:61%;
+    width:63%;
     background-color: #269be6;  
 }
 h2
@@ -83,7 +82,7 @@ h2
 }
 .contact_section3{
     text-align: center;
-    padding-top:30px;
+    padding-top:50px;
     padding-bottom:30px; 
     margin:0; 
 }
@@ -101,8 +100,8 @@ h2
 
 /*Debut de la partie blanche*/ 
 .experience{
-    padding-left:50px;
-    padding-right: 50px;
+    padding-left:40px;
+    padding-right: 40px;
     background-color: white;
 }
 .date_              /*pour décaler la hauter des dates*/
