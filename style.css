@@ -17,12 +17,13 @@ main
 section
 {
     display: flex;
+    display: none;
+
 }  
-figure{
+.one{
 background-color: #269be6;
 width:30%;
 margin:0;
-text-align:center;
 padding-top:37px;
 }
    
@@ -38,8 +39,9 @@ img{
     padding-top:40px;
     padding-left:40px;
     padding-bottom: 10px;
-    width:57%;
     background-color: white;
+    
+
 }
 h1{
     font-size:40px ;
@@ -71,6 +73,13 @@ h2
     height:40px;
     padding-top:15px
 } 
+.two
+{
+background-color: #269be6;
+width:30%;
+padding:37px 25px 37px 25px;
+}
+
 .container{
     width:780px;
     display:flex;
@@ -93,7 +102,7 @@ h2
     text-align: center;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 40px; /*Hauteur de ligne sinon l'icône est en haut du cercle */ 
     color: #404040;
     border: 2px solid #404040;
     border-radius: 50%;
@@ -101,6 +110,12 @@ h2
 /*Fin de la partie jaune */
 
 /*Debut de la partie blanche*/ 
+.main_title_2{
+   
+    padding-left:40px;
+    padding-bottom: 10px;
+    background-color: white;}
+
 .experience{
     width:70%;
     padding-left:40px;
@@ -207,21 +222,30 @@ padding-right: 15px;
     section {
        
         display:flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
+   .one{
+       width: 100%;
+       text-align: center;
+       padding-bottom: 30px;
+   }
     .main_title{
-        width:100%;
         padding:0;
-        text-align: center;
+        text-align: center;     
     }
-    figure{
-        width:100%;  
-        padding-bottom: 32px;
+    .main_title_2
+    {
+        display: none;
+    }      
+    img{
+            border-radius: 50%;
+            border:3px solid #252ed4;
+        }
+    .two{
+        display:none;
     }
-
     .container{
         flex-direction: column-reverse;
-        padding:0px;
         width:100%;
         
     }
